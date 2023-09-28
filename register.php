@@ -24,7 +24,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     } else{
         // Prepare a select statement
         $sql = "SELECT id FROM users WHERE username = ?";
-        $link = new mysqli("localhost","rootnew","Oldschool!2022","johnuser_upravljanje_paketima");
+        $link = new mysqli("localhost","rootnew","**********","**********");
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
             mysqli_stmt_bind_param($stmt, "s", $param_username);
