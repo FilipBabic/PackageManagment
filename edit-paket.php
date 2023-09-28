@@ -13,7 +13,7 @@
  	$query44 = "SELECT avansni_klijent FROM klijenti WHERE ime='" . $paket["klijent"] . "'";
     $result44=mysqli_query($conn,$query44);
     $paket44 = mysqli_fetch_assoc($result44);
-    $connect = new PDO("mysql:host=localhost;dbname=johnuser_upravljanje_paketima","rootnew","Oldschool!2022");
+    $connect = new PDO("mysql:host=localhost;dbname=**********","rootnew","**********");
 
     $query1 = "SELECT DISTINCT ime FROM kuriri";
     $query2 = "SELECT DISTINCT ime,avansni_klijent FROM klijenti";
