@@ -6,7 +6,7 @@
 		header("location: login.php");
 		exit;
 	}
-    $connect = new PDO("mysql:host=localhost;dbname=johnuser_upravljanje_paketima","rootnew","Oldschool!2022");
+    $connect = new PDO("mysql:host=localhost;dbname=**********","rootnew","**********");
 
     $query1 = "SELECT DISTINCT ime FROM kuriri";
     $query2 = "SELECT DISTINCT ime,avansni_klijent FROM klijenti";
