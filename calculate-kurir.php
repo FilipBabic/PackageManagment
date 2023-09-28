@@ -1,6 +1,6 @@
 <?php
 
-    $connect = new PDO("mysql:host=localhost;dbname=*********","rootnew","************");
+    $connect = new PDO("mysql:host=localhost;dbname=**********","rootnew","**********");
 
     if($_POST != '') 
     {                       
